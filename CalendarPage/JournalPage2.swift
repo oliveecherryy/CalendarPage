@@ -21,7 +21,7 @@ struct JournalPage2: View {
             Text("Title                                               ")
                 .font(.title)
                 .fontWeight(.semibold)
-                .foregroundColor(Color(hue: 1.0, saturation: 0.423, brightness: 0.769))
+                .foregroundColor(Color(hue: 1.0, saturation: 0.423, brightness: 0.768))
             TextField("Type title here...", text: $title)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .multilineTextAlignment(.leading)

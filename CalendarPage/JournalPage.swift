@@ -19,10 +19,10 @@ struct JournalPage: View {
             Text("Favourites Screen")
                     .tabItem {
                         Image(systemName: "note.text")
-            }
+                    }
             Text("Profile Contents")
                 .tabItem {
-                    
+                    Image(systemName: "person.crop.circle.fill")
                     
                 }
             
